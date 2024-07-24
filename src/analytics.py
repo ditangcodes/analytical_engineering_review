@@ -59,7 +59,7 @@ policies_df['rounded_vehicle_value'] = policies_df['vehicle_value'].round(-3)
 # Save the transformed data to a new CSV file
 policies_df.to_csv('transformed_policies.csv', index=False)
 
-# Optional: Display a sample of the transformed data
+#Display a sample of the transformed data
 print(policies_df.head())
 
 
