@@ -1,0 +1,22 @@
+## Background:
+
+The purpose of Analytical Engineering is to ensure pricing and data science teams have the necessary curated data to enable their modelling & risk selection activities. In addition, we will support teams in identifying commercial opportunities by utilising both data and domain knowledge to present insights in a meaningful way.
+
+You have been asked to curate a table and present high level insights into the data. You are given a dataset of policies with claims information and possible risk factors attached, this data is produced by our systems on a weekly basis and available as a csv.
+NB: 'NA' in the data indicates missing/unknown, or no claim for the claims fields
+
+You will be expected to present and talk through your findings, including how they were produced, for 30 minutes, with additional time to answer questions on your analysis.
+
+Please use your imagination in how you'd present your answers to the following questions, whether that's a PowerPoint, analytical notebook, dashboard, or otherwise. Presentation & code to be sent 24 hours ahead of interview.
+
+## Task breakdown:
+1) A number of transformations are required to curate the table. Complete these transformations using SQL/Python: (5 minutes)
+    - Replacing raw values with human readable equivalents provided in mapping files (Cover/Use/Entitlement/Garaged)
+    - Number of years a customer has held their licence (licence test date vs start date)
+    - Rounding of vehicle value to the nearest 1000
+
+2) Some of the information in the data set is clearly missing. How would you go about identifying this and building tests to ensure these issues are flagged? (5 minutes)
+
+3) Using your analysis skills and judgement, look at average claim size by a variety of factors to determine which might be predictive of claim size. Please illustrate your findings. (15 minutes)
+
+4) Given the data is provided by csv weekly, outline the methods you would recommend for uploading this data to our Snowflake database. What considerations should be made as part of the weekly upload? (5 minutes)
